@@ -9,8 +9,35 @@ Wagner Moritz, Stevan Vlajic
 :experimental:
 
 
+== Erstellung vom Webserver
+=== LXC Container Configurations
+==== General
+* Node: pve01
+* CT-ID: 7230
+* Hostname: 3ahitm-vlajic-wagner-webserver
+* Resource Pool: it200243
+* Password: FA8622-3a1b
 
-== Aufgabe 1
+==== Template
+* Storage: local
+* Template: ubuntu22
+
+==== Disks
+* Storage: SSD-School
+* Disk size: 8 GB
+
+==== CPU
+* Cores: 8
+
+==== Memory
+* Memory: 2048 MB
+* Swap: 2048 MB
+
+==== Network
+* Bridge: vmbr23
+* IPv4/CIDR: 10.9.7.34/24
+* Gateway: 10.9.7.33
+
 
 == Aufgabe 2
 
