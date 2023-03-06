@@ -41,8 +41,19 @@ Wagner Moritz, Stevan Vlajic
 image::/image/index.jpg[]
 
 == User anlegen
+----
+// Normalen User (mit eingeschränkten Rechten) hinzufügen
+adduser me
 
-===
+// Paketliste akualisieren (dient auch als Netzwerktest)
+sudo apt update
+
+// Login von lokalem Rechner mit ssh (von der Windows-Commandline z.B.)
+ssh me@10.9.3ahitm.23
+
+// Logout
+exit
+----
 
 == Aufgabe 3
 
