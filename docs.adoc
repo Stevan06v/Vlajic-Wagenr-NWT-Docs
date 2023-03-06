@@ -38,8 +38,11 @@ Wagner Moritz, Stevan Vlajic
 * IPv4/CIDR: 10.9.7.34/24
 * Gateway: 10.9.7.33
 
+image::/image/index.jpg[]
 
-== Aufgabe 2
+== User anlegen
+
+===
 
 == Aufgabe 3
 
