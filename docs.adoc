@@ -8,39 +8,39 @@ Wagner Moritz, Stevan Vlajic
 :toc: left
 :experimental:
 
-
-== Erstellung vom Webserver
-=== LXC Container Configurations
-==== General
+== 06.03.2023
+=== Erstellung vom Webserver
+==== LXC Container Configurations
+===== General
 * Node: pve01
 * CT-ID: 7230
 * Hostname: 3ahitm-vlajic-wagner-webserver
 * Resource Pool: it200243
 * Password: FA8622-3a1b
 
-==== Template
+===== Template
 * Storage: local
 * Template: ubuntu22
 
-==== Disks
+===== Disks
 * Storage: SSD-School
 * Disk size: 8 GB
 
-==== CPU
+===== CPU
 * Cores: 8
 
-==== Memory
+===== Memory
 * Memory: 2048 MB
 * Swap: 2048 MB
 
-==== Network
+===== Network
 * Bridge: vmbr23
 * IPv4/CIDR: 10.9.7.34/24
 * Gateway: 10.9.7.33
 
 image::/image/index.jpg[]
 
-== User anlegen
+=== User anlegen
 ----
 // Normalen User (mit eingeschränkten Rechten) hinzufügen
 adduser me
@@ -55,7 +55,8 @@ ssh me@10.9.3ahitm.23
 exit
 ----
 
-== Aufgabe 3
+== 13.03.2023
+
 
 == Aufgabe 5
 
